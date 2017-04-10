@@ -3,16 +3,16 @@ Send hints to Google analytics with no java script, server side.
 # Server Side Google Analytics (SSGA) is a simple PHP 5 class, which allows to track server-side events and data within Google Analytics.
 https://developers.google.com/analytics/devguides/collection/protocol/v1/devguide
 
-# usage
-//create new ssga object
+# Usage
+create new ssga object
 include 'lib/ss-ga.class.php';
 $ssga = new ssga( 'UA-YOUR_NUMBER', 'yoursite.com' );
 
-//Set a pageview
+Set a pageview
 $ssga->set_page( '/page.php' );
 $ssga->set_page_title( 'Page Title' );
 
-// Send
+Send
 $ssga->send();
 Set an event (based on https://developers.google.com/analytics/devguides/collection/protocol/v1/devguide#event)
 
