@@ -14,6 +14,7 @@ $ssga->set_page_title( 'Page Title' );
 
 Send
 $ssga->send();
+
 Set an event (based on https://developers.google.com/analytics/devguides/collection/protocol/v1/devguide#event)
 
 //$ssga as created above
